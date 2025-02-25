@@ -8,7 +8,7 @@ function mySqrt(x) {
 
         if (mid *mid===x) {
             return mid;
-        } else if (mid *mid< x) {
+        } else if (mid *mid<x) {
             result = mid; 
             left = mid+1;
         } else {
