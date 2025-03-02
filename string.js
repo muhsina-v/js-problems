@@ -4,8 +4,8 @@ function reverseString(s) {
     
     while (left < right) {
       const temp = s[left];
-      s[left] = s[right];
-      s[right] = temp;
+      s[left]=s[right];
+      s[right]=temp;
       
       left++;
       right--;
