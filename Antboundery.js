@@ -10,5 +10,5 @@ function ant(nums){
    }
    return count;
 }
-
-console.log(ant([2,3,-5]));
+//console.log(ant([2,3,-5]));
+console.log(ant([2434,44,-4244]));
