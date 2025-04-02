@@ -6,7 +6,9 @@ var robot=function(moves){
         else if(move=='L') x--;
         else if(move=='U') y++;
         else if(move=='D') y--;
+        //it makes code very simpler and all indicate in one line
 
+        
     }
 
     return x==0 && y==0;
