@@ -13,6 +13,5 @@ var detectCapitalUse = function (word) {
     return true;
   } else {
     return false;
-    // updated
   }
 };
