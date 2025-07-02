@@ -2,8 +2,8 @@ function convertToTitle(columnNumber) {
   let result = "";
 
   while (columnNumber > 0) {
-    columnNumber--; // Decrement to make it 0-based
-    const charCode = (columnNumber % 26) + 65; // 65 is 'A'
+    columnNumber--; 
+    const charCode = (columnNumber % 26) + 65;
     result = String.fromCharCode(charCode) + result;
     columnNumber = Math.floor(columnNumber / 26);
   }
